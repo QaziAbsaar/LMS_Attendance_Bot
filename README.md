@@ -70,7 +70,7 @@ Add:
 
 ```
 0 9 * * 1-5 cd /home/ubuntu/LMS_attendace && /home/ubuntu/LMS_attendace/venv/bin/python lms_attendance.py checkin >> attendance.log 2>&1
-0 20 * * 1-5 cd /home/ubuntu/LMS_attendace && /home/ubuntu/LMS_attendace/venv/bin/python lms_attendance.py checkout >> attendance.log 2>&1
+0 16 * * 1-5 cd /home/ubuntu/LMS_attendace && /home/ubuntu/LMS_attendace/venv/bin/python lms_attendance.py checkout >> attendance.log 2>&1
 ```
 
 ### Logs
