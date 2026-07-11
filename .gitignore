@@ -1,0 +1,7 @@
+.env
+*.log
+__pycache__/
+*.pyc
+prod_captcha.png
+.venv/
+venv/
