@@ -26,9 +26,9 @@ Edit `.env`, fill real password:
 LMS_USERNAME=your_reg_no
 LMS_PASSWORD=your_password
 INTERNSHIP_KEY=your_internship_key
-LOCATION_LAT=33.607167
-LOCATION_LNG=73.100716
-LOCATION_ADDRESS=Nur Khan Base, NASTP Rd, Gharibabad, Chaklala Cantonment, Rawalpindi District, Rawalpindi Division, Punjab, 46330, Pakistan
+LOCATION_LAT= your lat
+LOCATION_LNG= your LNG
+LOCATION_ADDRESS= Your Location Address
 ```
 
 `.env` is gitignored — never commit real credentials.
